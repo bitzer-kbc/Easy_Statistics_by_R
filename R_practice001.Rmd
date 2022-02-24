@@ -1,0 +1,30 @@
+---
+title: "Rmare_001"
+output: html_document
+date: '2022-02-21'
+--
+print(3+4)
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+print(1+1)
+print(3-5)
+
+print(5/7)
+```{r}
+
+```
+print(5+100)
+
+print(1+1000)
+
+
+
