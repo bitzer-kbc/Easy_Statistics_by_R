@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "R Notebook"
 output: html_notebook
@@ -37,3 +38,44 @@ legend(10,100,legend="母集団(円の中全体に広がっていて相関はゼ
 
 ```
 
+=======
+---
+title: "R Notebook"
+output: html_notebook
+print(1+1)
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+set.seed(1)
+A <- rnorm(50)
+B <- rnorm(50)
+自尊感情 <- 10*A+50
+ソーシャルスキル <- 10*B+50
+```
+
+
+```{r}
+plot(自尊感情,ソーシャルスキル,xlim=c(0,100), ylim=c(0,100))
+points(50,50,cex=45)
+legend(50,10,legend="抽出された標本に含まれるデータ",pch=1)
+legend(10,100,legend="母集団(円の中全体に広がっていて相関はゼロ")
+```
+```{r}
+1+1
+2+2
+3+4
+5+5
+```
+
+
+```{r}
+
+
+
+```
+
+>>>>>>> 26373fb78e52e50324f5d44ab4d0f900b0c5f5f5
