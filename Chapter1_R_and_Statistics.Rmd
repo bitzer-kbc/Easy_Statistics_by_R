@@ -48,10 +48,20 @@ Hawks2
 ```{r}
 
 # 1.6.3 関数を作ってみよう
+varp <- function(X) {
+  標本分散 <- var(X)*(length(X)-1)/length(X)
+  標本分散
+}
+X <- c(10,13,8,15,8)
+X
+var(X)
+varp(X)
 
 ```
+
 
 
 ```{r}
-```
 
+```
+1+1
